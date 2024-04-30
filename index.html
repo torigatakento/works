@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タイトル</title>
+  <meta name="description" content="ディスクリプション">
+  <link rel="stylesheet" href="./css/common.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="./js/jquery.min.js"></script>
+  <script type="module" src="./js/modal.js"></script>
+</head>
+
+<body class="vsc-initialized" cz-shortcut-listen="true">
+  <span id="js-gotop-trigger"></span>
+  <div id="js-gotop" class="gotop">
+    <svg class="gotop__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+      <path d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path>
+    </svg>
+  </div>
+
+  <header class="l-header">
+    <div class="l-header__inner">
+      <a class="l-header__logo" href="/">
+        logo
+      </a>
+      <nav class="l-header__nav">
+        <a class="l-header-nav__link " href="/">
+          お問い合わせ
+        </a>
+      </nav>
+    </div>
+  </header>
+
+
+  <nav id="js-breadcrumbs" class="breadcrumbs">
+    <ol class="breadcrumb__list" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+      <li class="breadcrumb" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+        <a class="breadcrumb__link" href="/" itemprop="item">
+          <span class="breadcrumb__title" itemprop="name">ぱんくずリスト</span>
+        </a>
+        <meta itemprop="position" content="1"> </li>
+      <li class="breadcrumb" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+        <a class="breadcrumb__link" href="/" itemprop="item">
+          <span class="breadcrumb__title" itemprop="name">ぱんくずリスト</span>
+        </a>
+        <meta itemprop="position" content="2"> </li>
+      <li class="breadcrumb" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+        <strong class="breadcrumb--last">
+          <span class="breadcrumb__title" itemprop="name">
+            ぱんくずリスト
+          </span>
+        </strong>
+        <meta itemprop="position" content="3"> </li>
+    </ol>
+  </nav>
+
+  <main class="l-main sot201">
+    <div class="l-contents">
+      <div class="l-content py-0 fv">
+        <p class="pc_view recipi_bn">
+          <a href="/">
+            <img src="./img/bnr.png" alt="バナー" width="750" height="750">
+          </a>
+        </p>
+        <div class="swiper swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden">
+          <div class="swiper-wrapper" id="swiper-wrapper-d70ca3d3693052be" aria-live="off" style="transform: translate3d(-750px, 0px, 0px); transition-duration: 2000ms;">
+            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 375px;" role="group" aria-label="3 / 3">
+              <picture>
+                <source srcset="./img/fvpc3.jpg" media="(min-width:768px)" width="1920" height="500">
+                <img src="./img/fvsmp3.jpg" alt="fv" width="750" height="900">
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 375px;" role="group" aria-label="1 / 3">
+              <picture>
+                <source srcset="./img/fvpc1.jpg" media="(min-width:768px)" width="1920" height="500">
+                <img src="./img/fvsmp1.jpg" alt="fv" width="750" height="900">
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 375px;" role="group" aria-label="2 / 3">
+              <picture>
+                <source srcset="./img/fvpc2.jpg" media="(min-width:768px)" width="1920" height="500">
+                <img src="./img/fvsmp2.jpg" alt="fv" width="1920" height="900">
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 375px;" role="group" aria-label="3 / 3">
+              <picture>
+                <source srcset="./img/fvpc3.jpg" media="(min-width:768px)" width="1920" height="500">
+                <img src="./img/fvsmp3.jpg" alt="fv" width="750" height="900">
+              </picture>
+            </div>
+            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style="width: 375px;">
+              <picture>
+                <source srcset="./img/fvpc1.jpg" media="(min-width:768px)" width="1920" height="500">
+                <img src="./img/fvsmp1.jpg" alt="fv" width="750" height="900">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2" aria-current="true"></span>
+            <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+          </div>
+          <!--div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div-->
+          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        </div>
+      </div>
+      <div class="go_recipe smp_view">
+        <a href="/">
+          <img src="./img/bnr_smp.png" alt="バナー" width="1500" height="300">
+        </a>
+      </div>
+      <ul class="head_items">
+        <li><img src="./img/item1.png" alt="アイテム1" width="900" height="600">アイテム1</li>
+        <li><img src="./img/item2.png" alt="アイテム2（補足）" width="900" height="600">アイテム2<br><span>（補足）</span></li>
+        <li><img src="./img/item3.png" alt="アイテム3（補足）" width="900" height="600">アイテム3<br><span>（補足）</span></li>
+      </ul>
+      <section class="point">
+        <h2>イメージ動画<span class="block_span block_span_2">※下記をクリック</span></h2>
+        <p class="mov_box"><a class="mov-open"><img src="./img/movie.png" alt="動画" width="750" height="375" loading="lazy"></a> </p>
+        <div class="flex_point rev_order">
+          <div class="point_txt">
+            <div class="point_bk">
+              <p><strong>ポイント1</strong><span class="block_span">テキストテキストテキスト</span></p>
+              <p class="pc_view"><a class="syousai1-open kochira_bt">詳しくはこちら</a></p>
+            </div>
+          </div>
+          <p class="point_img"> <img src="./img/point1_img.jpg" alt="画像" width="750" height="375" loading="lazy"> </p>
+          <p class="smp_view w100"><a class="syousai1-open kochira_bt">詳しくはこちら</a></p>
+        </div>
+        <div class="flex_point ">
+          <div class="point_txt">
+            <div class="point_bk">
+              <p><strong>ポイント2</strong><span class="block_span">テキストテキストテキストテキストテキスト</span></p>
+              <p class="pc_view"><a class="syousai2-open kochira_bt">詳しくはこちら</a></p>
+            </div>
+          </div>
+          <p class="point_img"> <img src="./img/point2_img.jpg" alt="画像" width="750" height="375" loading="lazy"> </p>
+          <p class="smp_view w100"><a class="syousai2-open kochira_bt">詳しくはこちら</a></p>
+        </div>
+      </section>
+      <section class="scene">
+        <h3><span>テキスト</span></h3>
+        <div class="flex_scene">
+          <dl>
+            <dt><img src="./img/scene1.png" alt="画像" width="1200" height="840" loading="lazy"></dt>
+            <dd>テキスト<span class="block_span">テキストテキストテキスト</span> </dd>
+          </dl>
+          <dl>
+            <dt><img src="./img/scene2.png" alt="画像" width="1200" height="840" loading="lazy"></dt>
+            <dd>テキストテキストテキスト<span class="block_span">テキスト</span> </dd>
+          </dl>
+        </div>
+      </section>
+      <div class="go_recipe pc_view">
+        <a href="/">
+          <img src="./img/bnr_pc.png" alt="バナー" width="1500" height="300" loading="lazy">
+        </a>
+      </div>
+      <section class="spec">
+        <ul class="color_vari">
+          <li><img src="./img/item1.png" alt="アイテム1" width="900" height="600" loading="lazy">アイテム1</li>
+          <li><img src="./img/item2.png" alt="アイテム2（補足）" width="900" height="600" loading="lazy">アイテム2<br><span>（補足）</span></li>
+          <li><img src="./img/item3.png" alt="アイテム3（補足）" width="900" height="600" loading="lazy">アイテム3<br><span>（補足）</span></li>
+        </ul>
+        <ul class="spec_list">
+          <li>
+            <dl><dt>項目1</dt>
+              <dd>テキスト</dd>
+            </dl>
+          </li>
+          <li>
+            <dl><dt>項目2</dt>
+              <dd>テキストテキスト</dd>
+            </dl>
+          </li>
+          <li>
+            <dl><dt>項目3</dt>
+              <dd>テキストテキストテキスト</dd>
+            </dl>
+          </li>
+          <li>
+            <dl><dt>項目4</dt>
+              <dd>テキストテキストテキストテキスト</dd>
+            </dl>
+          </li>
+          <li>
+            <dl><dt>項目5</dt>
+              <dd>テキストテキストテキストテキストテキスト</dd>
+            </dl>
+          </li>
+        </ul>
+      </section>
+      <a href="/" target="_blank" class="buybtn">お買い求めはこちら</a>
+
+      <!-- モーダル 動画 -->
+      <div id="mov" class="samplemodal" style="display: none;">
+        <div class="samplemodal-wrap">
+          <div class="samplemodal-bg">&nbsp;</div>
+          <div class="samplemodal-box ytb_bk">
+            <p class="all_close"><img src="./img/btn_close.png" width="81" height="116" loading="lazy"></p>
+            <div class="inner">
+              <p class="youtube"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/c9LiRAsDv_c?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- モーダル 詳細1 -->
+      <div id="syousai1" class="samplemodal" style="display: none;">
+        <div class="samplemodal-wrap">
+          <div class="samplemodal-bg">&nbsp;</div>
+          <div class="samplemodal-box">
+            <div class="inner">
+              <p class="h3_up">テキスト</p>
+              <h3>テキスト<br class="smp_view">テキストテキストテキスト</h3>
+              <p class="syousai_img"><img src="./img/modal.png" alt="画像" width="750" height="375" loading="lazy"></p>
+              <p>テキスト<br class="smp_view">テキスト<strong class="block_span">テキストテキストテキスト</strong></p>
+              <p class="all_close"><img src="./img/btn_close.png" width="81" height="116" loading="lazy"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- モーダル 詳細2 -->
+      <div id="syousai2" class="samplemodal" style="display: none;">
+        <div class="samplemodal-wrap">
+          <div class="samplemodal-bg">&nbsp;</div>
+          <div class="samplemodal-box">
+            <div class="inner">
+              <p class="h3_up">テキストテキストテキスト</p>
+              <h3>テキスト</h3>
+              <p class="syousai_img"><img src="./img/modal.png" alt="画像" width="750" height="375" loading="lazy"></p>
+              <p>テキストテキストテキスト<strong class="block_span">テキスト</strong></p>
+              <p class="all_close"><img src="./img/btn_close.png" alt="close" width="81" height="116" loading="lazy"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <aside class="l-sns">
+    <nav class="l-sns__nav">
+      <ul class="l-sns__list">
+        <li class="l-sns__item">
+          <a class="l-sns__link --facebook" href="/">
+            <img class="l-sns__image --facebook" src="./img/facebook.svg" alt="facebook" loading="lazy" width="150" height="150">
+          </a>
+        </li>
+        <li class="l-sns__item">
+          <a class="l-sns__link --facebook" href="/">
+            <img class="l-sns__image --facebook" src="./img/twitter.svg" alt="twitter" loading="lazy" width="150" height="150">
+          </a>
+        </li>
+        <li class="l-sns__item">
+          <a class="l-sns__link --facebook" href="/">
+            <img class="l-sns__image --facebook" src="./img/instagram.svg" alt="instagram" loading="lazy" width="150" height="150">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- フッター -->
+  <footer class="l-footer">
+    <div class="l-inner l-footer__inner">
+      <div class="l-footer__nav">
+        <ul class="l-footer-nav__list">
+          <li class="l-footer-nav__item">
+            <a class="l-footer-nav__link" href="/">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="l-footer__copy">
+        <small class="l-footer-copy__text">©2024</small>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="./js/gotop_button.js"></script>
+  <script defer src="./js/breadcrumbs_scroll.js"></script>
+  <script type="module" src="./js/swiper.js"></script>
+  <script type="module" src="./js/modal_youtube.js"></script>
+</body>
+</html>
